@@ -1,0 +1,215 @@
+/* src/index.css */
+
+/* Estilo global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+}
+
+/* Estilo del encabezado */
+.header {
+  background-color: #f1c40f; /* Amarillo brillante */
+  color: #000; /* Texto negro */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+  font-size: 2.5em; /* Tamaño de fuente más grande */
+}
+
+/* Estilo de la sección principal */
+.main-section {
+  padding: 20px;
+  background-color: #333; /* Fondo oscuro */
+  border: 1px solid #444; /* Borde gris oscuro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+  margin: 20px;
+  text-align: center;
+}
+
+.media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espacio entre el video y las imágenes */
+}
+
+.media-item {
+  border-radius: 8px;
+}
+
+.media-image {
+  width: 150px; /* Tamaño reducido de las imágenes */
+  height: auto;
+}
+
+.media-video {
+  width: 300px; /* Tamaño del video */
+  height: auto;
+}
+
+.description {
+  font-size: 1.5em; /* Tamaño de fuente más grande para el texto */
+  color: #fff; /* Texto blanco */
+  margin-top: 20px;
+}
+
+/* Estilo de las imágenes de los integrantes */
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: #333; /* Fondo oscuro */
+  border: 1px solid #444; /* Borde gris oscuro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+  margin: 20px;
+}
+
+.team-member {
+  flex: 1 1 200px; /* Flexbox para una disposición responsiva */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 200px; /* Imágenes más grandes */
+  height: 200px;
+  border: 3px solid #f1c40f; /* Borde amarillo */
+  margin-right: 20px;
+}
+
+.team-member-name {
+  font-weight: bold;
+  color: #f1c40f; /* Nombre en amarillo */
+  font-size: 1.8em; /* Tamaño de fuente más grande */
+}
+
+/* Estilo de los testimonios */
+.testimonials-section {
+  padding: 20px;
+  background-color: #333; /* Fondo oscuro */
+  border: 1px solid #444; /* Borde gris oscuro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+  margin: 20px;
+}
+
+.testimonial-card {
+  border: 1px solid #444; /* Borde gris oscuro */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #222; /* Fondo más oscuro para las tarjetas */
+  margin-bottom: 20px;
+}
+
+.testimonial-card p {
+  font-size: 1.4em; /* Tamaño de fuente más grande */
+  color: #f1c40f; /* Texto en amarillo */
+}
+
+.testimonial-author {
+  font-size: 1.2em; /* Tamaño de fuente para el autor */
+  color: #f1c40f; /* Texto en amarillo */
+}
+
+/* Estilo de la caja de comentarios */
+.comments-section {
+  padding: 20px;
+  background-color: #333; /* Fondo oscuro */
+  border: 1px solid #444; /* Borde gris oscuro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+  margin: 20px;
+}
+
+.comment-box {
+  border: 1px solid #444; /* Borde gris oscuro */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #222; /* Fondo más oscuro para las cajas de comentarios */
+  margin-bottom: 15px;
+}
+
+.comment-box textarea {
+  width: 100%;
+  height: 120px; /* Aumentar altura para más espacio */
+  border: 1px solid #444; /* Borde gris oscuro */
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1.2em; /* Tamaño de fuente más grande */
+  margin-bottom: 10px;
+  background-color: #333; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+}
+
+.comment-box button {
+  padding: 10px 20px;
+  background-color: #f1c40f; /* Amarillo brillante */
+  border: none;
+  border-radius: 8px;
+  color: #fff; /* Texto blanco */
+  cursor: pointer;
+  font-size: 1.2em; /* Tamaño de fuente más grande */
+}
+
+.comment-box button:hover {
+  background-color: #e0b90f; /* Amarillo más oscuro en hover */
+}
+
+.comment {
+  border: 1px solid #444; /* Borde gris oscuro */
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #222; /* Fondo más oscuro para los comentarios */
+  margin-bottom: 10px;
+}
+
+.comment p {
+  font-size: 1.2em; /* Tamaño de fuente más grande */
+  color: #f1c40f; /* Texto amarillo */
+}
+
+/* Estilo del pie de página */
+.footer {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilo responsive */
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    align-items: center; /* Alinear elementos al centro en pantallas pequeñas */
+  }
+
+  .media-container {
+    flex-direction: column; /* Apilar el video y las imágenes verticalmente en pantallas pequeñas */
+  }
+
+  .media-item {
+    width: 80%; /* Ajustar tamaño en pantallas pequeñas */
+  }
+
+  .team-member {
+    flex: 1 1 100%; /* Hacer que los miembros del equipo se apilen verticalmente en pantallas pequeñas */
+  }
+
+  .team-member img {
+    width: 150px; /* Reducir tamaño de imágenes en pantallas pequeñas */
+    height: 150px;
+  }
+}
