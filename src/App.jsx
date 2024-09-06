@@ -6,7 +6,7 @@ import "./index.css";
 function App() {
   const [comments, setComments] = useState([
     { id: 1, text: "¡Excelente trabajo!", author: "Anónimo 1" },
-    { id: 3, text: "Muy bien hecho, me encanta el proyecto.", author: "Anónimo 2" },
+    { id: 2, text: "Muy bien hecho, me encanta el proyecto.", author: "Anónimo 2" },
   ]);
 
   const handleAddComment = (e) => {
